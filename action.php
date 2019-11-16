@@ -1,11 +1,11 @@
 <?php
 
-$sql = "INSERT INTO Oeuvre (Titre, Artiste, Annee,Technique,Format,Prix,Acheteur)
+$sql = "INSERT INTO test.Oeuvre (Titre, Artiste, Annee,Technique,Format,Prix,Acheteur)
 VALUES ('Le style', 'Moi', '2021','sans toile','hyper grand','MILLE!','Personne')";
 
 if(query($sql)===True){
-echo "It should have worked"
+  echo "It should have worked"
 }else{
-echo "It shouldn't have worked"
+  echo "It shouldn't have worked"
 }
 ?>
