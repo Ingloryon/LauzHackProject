@@ -1,14 +1,29 @@
 
 body {
-    background-color:white
+    background-color:#d1d1d1
 }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#login{
+    font-size: 1.5em;   
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
 
+#title {
+    display: inline-block;
+    text-align: center;
+    float: center;
+}
 
+#logo {
+    text-align: left;
+    display: inline-block;
+}
 
 div.figure {
     display: block;
@@ -44,7 +59,15 @@ div.figure3 {
     text-align: center;
 }
 
+
+
 #footer{
     clear: both;
     padding: 10px;
+    background-color: #999999;
+    color: white;
     text-align: right;
+    bottom: 0px;
+}
+
+}
