@@ -1,7 +1,7 @@
 <?php
 if( $_POST )
 {
-  $con = mysql_connect("localhost","Mateo","Axe360Axe360");
+  $con = mysql_connect("localhost","Mateo","password");
 
   if (!$con)
   {
