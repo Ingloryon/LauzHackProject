@@ -1,13 +1,41 @@
 
 
 body {
-    background-color:white
+    background-color:#add8e6;
 }
 
 #login{
+    font-size: 1.5em;   
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+
+#title {
+    font-size: 1.3em;
+    display: inline-block;
+    text-align: center;
+    float: center;
+}
+
+#logo {
+    text-align: left;
+    display: inline-block;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
     text-align: right;
 }
 
-#topbar{
-    text-align: center;
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
