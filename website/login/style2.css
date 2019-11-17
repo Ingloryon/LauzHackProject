@@ -4,25 +4,19 @@ body {
      background-size: cover;
 }
 
-#login{
-    font-size: 1.5em;   
-    text-align: right;
-    float: right;
-    display: inline-block;
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#title {
-    display: inline-block;
 
-
-    text-align: center;
-    float: center;
+#topBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-#logo {
-    text-align: left;
-    display: inline-block;
-}
 
 #footer{
     clear: both;

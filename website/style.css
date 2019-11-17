@@ -8,24 +8,12 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#login{
-    font-size: 1.5em;
-    text-align: right;
-    float: right;
-    display: inline-block;
+#topBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
-
-#title {
-    display: inline-block;
-    text-align: center;
-    float: center;
-}
-
-#logo {
-    text-align: left;
-    display: inline-block;
-}
-
 
 #imageList{
     display: flex;
