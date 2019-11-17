@@ -1,7 +1,9 @@
 
 
 body {
-    background-color:#d1d1d1;
+     background-image:url("../GraphicAssets/background.png");
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 h1 {
