@@ -1,0 +1,33 @@
+body {
+     background-image:url("../GraphicAssets/background.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#login{
+    font-size: 1.5em;   
+    text-align: right;
+    float: right;
+    display: inline-block;
+}
+
+#title {
+    display: inline-block;
+
+
+    text-align: center;
+    float: center;
+}
+
+#logo {
+    text-align: left;
+    display: inline-block;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+}
